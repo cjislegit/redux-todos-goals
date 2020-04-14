@@ -6,10 +6,23 @@
     <title>Todos Goals</title>
   </head>
   <body>
+    <div>
+      <h2>Todo List</h2>
+      <input id="todo" type="text" placeholder="Add Todo" />
+      <button id="todoBtn">Add Todo</button>
+      <ul id="todos"></ul>
+    </div>
+    <div>
+      <h2>Goals List</h2>
+      <input id="goal" type="text" placeholder="Add Goal" />
+      <button id="goalBtn">Add Todo</button>
+      <ul id="goals"></ul>
+    </div>
+
     <script type="text/javascript">
       //Library
       function createStore(reducer) {
-        // The store shoyld have four parts
+        // The store should have four parts
         // 1. The state
         // 2. Get the state
         // 3. Listen to changes on the state
